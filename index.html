@@ -6,6 +6,7 @@
 
   <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
   <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/ace/ace.js"></script>
   <script language="javascript" type="text/javascript" src="HFRICTIONS5.js"></script>
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
 
@@ -26,5 +27,10 @@
   <button type="button" id="compile-code" onclick="compileCode()">Compile</button>
   <textarea id="code-input" rows="10" cols="300"></textarea>
   <a href="https://copernicium291.github.io/HFRICTIONS/reference">Documentation</a>
+  <script>
+
+    var editor = ace.edit("code-input");
+    
+  </script>
 </body>
 </html>
